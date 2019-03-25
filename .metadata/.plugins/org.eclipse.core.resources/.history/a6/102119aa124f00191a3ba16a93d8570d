@@ -1,0 +1,5 @@
+package com.test.application.products;
+
+public class ProductController {
+
+}

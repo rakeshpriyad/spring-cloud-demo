@@ -1,0 +1,14 @@
+package com.test.application.products;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProductController {
+
+	
+	@RequestMapping(value = "/")
+	public String home() {
+		return "Eureka Client application";
+	}
+}

@@ -1,0 +1,16 @@
+package com.test.application.products;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.test.application.dto.Product;
+
+@RestController
+public class ProductController {
+
+	
+	@GetMapping(value = "/products")
+	public List<Product> home() {
+		return ne;
+	}
+}
