@@ -4,8 +4,7 @@ spring:
    application:  
       name: zuulserver
 zuul:
-
-routes:
-   products:
-      path: /api/demo/**
-      url: http://localhost:8080/
+   routes:
+     products:
+       #path: /spring-cloud/demo/**
+       url: http://localhost:8080/
